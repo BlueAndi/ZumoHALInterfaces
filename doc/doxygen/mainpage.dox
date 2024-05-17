@@ -1,0 +1,6 @@
+@mainpage Manual
+
+@defgroup HALInterfaces Hardware Abstraction Interfaces
+The Zumo C++ HAL interface abstraction, which shall be realized by every target specific HAL.
+@{
+@}
