@@ -1,0 +1,39 @@
+@startuml Principle
+
+package "Application" {
+    class "Aaaa" as Aaaa
+}
+
+package "HAL Interfaces" {
+    interface "IXxxx" as iXxxx
+}
+
+package "Example" {
+
+    package "HAL MCU" {
+        class "Xxxx" as XxxxMcu
+        
+        note bottom of XxxxMcu
+            MCU specific implementation.
+        end note
+    }
+
+    package "HAL Simulation" {
+        class "Xxxx" as XxxxSimulation
+
+        note bottom of XxxxSimulation
+            Simulation specific implementation.
+        end note
+    }
+
+}
+
+Aaaa ...> iXxxx: <<use>>
+iXxxx <|... XxxxMcu: <<realize>>
+iXxxx <|... XxxxSimulation: <<realize>>
+
+note top of Aaaa
+    Target independed application.
+end note
+
+@enduml
