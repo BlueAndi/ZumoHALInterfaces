@@ -134,7 +134,7 @@ public:
      * x, y and z direction will be written into. The values can be converted into physical values in mm/s^2 via the
      * multiplication with a sensitivity factor in mm/s^2/digit.
      */
-    virtual const void getAccelerationValues(IMUData* accelerationValues) = 0;
+    virtual void getAccelerationValues(IMUData* accelerationValues) const = 0;
 
     /**
      * Get last raw Gyro values as an IMUData struct containing values in x, y and z in digits.
@@ -143,7 +143,7 @@ public:
      * direction will be written into. The values can be converted into physical values in mrad/s via the multiplication
      * with a sensitivity factor in mrad/s/digit.
      */
-    virtual const void getTurnRates(IMUData* turnRates) = 0;
+    virtual void getTurnRates(IMUData* turnRates) const = 0;
 
     /**
      * Get last raw Magnetometer values as an IMUData struct containing values in x, y and z in digits.
@@ -152,7 +152,7 @@ public:
      * x, y and z direction will be written into. The values can be converted into physical values in mgauss via the
      * multiplication with a sensitivity factor in mgauss/digit.
      */
-    virtual const void getMagnetometerValues(IMUData* magnetometerValues) = 0;
+    virtual void getMagnetometerValues(IMUData* magnetometerValues) const = 0;
 
     /**
      * Calibrate the IMU.
