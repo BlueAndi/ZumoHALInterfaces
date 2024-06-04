@@ -8,6 +8,10 @@
         "url": "https://github.com/BlueAndi",
         "maintainer": true
     }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlueAndi/ZumoHALInterfaces"
+    },
     "license": "MIT",
     "dependencies": [],
     "frameworks": "*",
