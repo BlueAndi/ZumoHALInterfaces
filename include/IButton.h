@@ -27,7 +27,7 @@
 /**
  * @brief  Abstract button interface
  * @author Andreas Merkle <web@blue-andi.de>
- * 
+ *
  * @addtogroup HALInterfaces
  *
  * @{
@@ -65,16 +65,11 @@ public:
     }
 
     /**
-     * Is button pressed or not
+     * Returns whether button is pressed or not, including debouncing.
      *
      * @return If button is pressed, returns true otherwise false.
      */
     virtual bool isPressed() = 0;
-
-    /**
-     * Wait until button is released.
-     */
-    virtual void waitForRelease() = 0;
 
 protected:
     /**
