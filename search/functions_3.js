@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['getaccelerationvalues_0',['getAccelerationValues',['../classIIMU.html#ac5cde48ba8b9b1cbf9307be89d741219',1,'IIMU']]],
+  ['getcaliberrorinfo_1',['getCalibErrorInfo',['../classILineSensors.html#af789fc44cacb45286d43ba2a4b46b702',1,'ILineSensors']]],
+  ['getcountsandresetleft_2',['getCountsAndResetLeft',['../classIEncoders.html#a3246cce5269be0bfe967def04ab15b60',1,'IEncoders']]],
+  ['getcountsandresetright_3',['getCountsAndResetRight',['../classIEncoders.html#aab3488460588dc849894f7f8ca2dba59',1,'IEncoders']]],
+  ['getcountsleft_4',['getCountsLeft',['../classIEncoders.html#adb2622cb44236dc5e12bc5433bd47b8f',1,'IEncoders']]],
+  ['getcountsright_5',['getCountsRight',['../classIEncoders.html#a3e58675e248cf4f6ddbc5e34a9c4470a',1,'IEncoders']]],
+  ['getleftspeed_6',['getLeftSpeed',['../classIMotors.html#a6166ec4625297f280af45db856a8cd52',1,'IMotors']]],
+  ['getmagnetometervalues_7',['getMagnetometerValues',['../classIIMU.html#ac6c10a412a99820dcba970bff15f6897',1,'IIMU']]],
+  ['getmaxspeed_8',['getmaxspeed',['../classISettings.html#a594c6b288f8973c6658125c2fd603926',1,'ISettings::getMaxSpeed()'],['../classIMotors.html#abcea53a50968caf1891d3d81bee992cb',1,'IMotors::getMaxSpeed()']]],
+  ['getnumbrightnesslevels_9',['getNumBrightnessLevels',['../classIProximitySensors.html#a1e3ab66a644e5f0104a40951a994ff01',1,'IProximitySensors']]],
+  ['getnumlinesensors_10',['getNumLineSensors',['../classILineSensors.html#a7cdb5ede774e2dc2f831a567f66fb8ee',1,'ILineSensors']]],
+  ['getnumsensors_11',['getNumSensors',['../classIProximitySensors.html#aabdb17cd669877d370d5436710473eee',1,'IProximitySensors']]],
+  ['getrightspeed_12',['getRightSpeed',['../classIMotors.html#add8ea959bc9f73b6b5ffb6529ff1308f',1,'IMotors']]],
+  ['getsensorvaluemax_13',['getSensorValueMax',['../classILineSensors.html#a675e7c7138563971c7179709d8ff1516',1,'ILineSensors']]],
+  ['getsensorvalues_14',['getSensorValues',['../classILineSensors.html#a94c173dc47d693aabe515c4445a11e26',1,'ILineSensors']]],
+  ['getturnrates_15',['getTurnRates',['../classIIMU.html#a15e1bea51d96b0a8c7aa1ade5965528c',1,'IIMU']]],
+  ['gotoxy_16',['gotoXY',['../classIDisplay.html#a16d934f268d2ccdbf46ca7f8dc8255f7',1,'IDisplay']]],
+  ['gyrodataready_17',['gyroDataReady',['../classIIMU.html#aa7a943fc25b0098472742c93f70dd75a',1,'IIMU']]]
+];
