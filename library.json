@@ -1,6 +1,6 @@
 {
     "name": "ZumoHALInterfaces",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Zumo C++ Interfaces for abstract hardware abstraction layer.",
     "authors": [{
         "name": "Andreas Merkle",
