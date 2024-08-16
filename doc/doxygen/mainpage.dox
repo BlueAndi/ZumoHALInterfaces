@@ -1,6 +1,17 @@
-@mainpage Manual
+/**
+
+@mainpage
+
+## Principle
+![Principle](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/BlueAndi/ZumoHALInterfaces/master/doc/uml/Principle.plantuml)
+
+## Detail
+![HAL](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/BlueAndi/ZumoHALInterfaces/master/doc/uml/HAL.plantuml)
+
 
 @defgroup HALInterfaces Hardware Abstraction Interfaces
 The Zumo C++ HAL interface abstraction, which shall be realized by every target specific HAL.
 @{
 @}
+
+*/
