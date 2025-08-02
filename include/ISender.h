@@ -76,15 +76,19 @@ public:
      *
      * @param[in] data  Data buffer
      * @param[in] size  Data buffer size in bytes.
+     * 
+     * @return Number of bytes written.
      */
-    virtual void send(const void* data, size_t size) const = 0;
+    virtual size_t send(const void* data, size_t size) const = 0;
 
     /**
      * Sends string to the configured channel.
      *
      * @param[in] str   String which to send.
+     * 
+     * @return Number of bytes written.
      */
-    virtual void send(const char* str) const = 0;
+    virtual size_t send(const char* str) const = 0;
 
 protected:
     /**
