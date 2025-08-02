@@ -79,7 +79,7 @@ public:
      * 
      * @return Number of bytes read from stream.
      */
-    virtual size_t receive(void* data, size_t size) const = 0;
+    virtual size_t receive(void* data, size_t size) = 0;
 
     /**
      * Check if any data has been received.
