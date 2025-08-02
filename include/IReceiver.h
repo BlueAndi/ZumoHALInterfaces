@@ -25,15 +25,15 @@
     DESCRIPTION
 *******************************************************************************/
 /**
- * @brief  Abstract sender interface
+ * @brief  Abstract receiver interface
  * @author Andreas Merkle <web@blue-andi.de>
  * 
  * @addtogroup HALInterfaces
  *
  * @{
  */
-#ifndef ISENDER_H
-#define ISENDER_H
+#ifndef IRECEIVER_H
+#define IRECEIVER_H
 
 /******************************************************************************
  * Compile Switches
@@ -53,48 +53,46 @@
  * Types and Classes
  *****************************************************************************/
 
-/** The abstract sender interface. */
-class ISender
+/** The abstract receiver interface. */
+class IReceiver
 {
 public:
     /**
      * Destroys the interface.
      */
-    virtual ~ISender()
+    virtual ~IReceiver()
     {
     }
 
     /**
-     * Set channel which to send data to.
+     * Set channel which to receive data from.
      * 
      * @param[in] channel   The channel which to use.
      */
     virtual void setChannel(int32_t channel) = 0;
 
     /**
-     * Sends data to the configured channel.
+     * Receives data from the configured channel.
      *
-     * @param[in] data  Data buffer
+     * @param[in] data  Data buffer.
      * @param[in] size  Data buffer size in bytes.
      * 
-     * @return Number of bytes written.
+     * @return Number of bytes read from stream.
      */
-    virtual size_t send(const void* data, size_t size) const = 0;
+    virtual size_t receive(void* data, size_t size) = 0;
 
     /**
-     * Sends string to the configured channel.
+     * Check if any data has been received.
      *
-     * @param[in] str   String which to send.
-     * 
-     * @return Number of bytes written.
+     * @return Number of available bytes.
      */
-    virtual size_t send(const char* str) const = 0;
+    virtual int available() const = 0;
 
 protected:
     /**
      * Constructs the interface.
      */
-    ISender()
+    IReceiver()
     {
     }
 
@@ -105,5 +103,5 @@ private:
  * Functions
  *****************************************************************************/
 
-#endif /* ISENDER_H */
+#endif /* IRECEIVER_H */
 /** @} */
