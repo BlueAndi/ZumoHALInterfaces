@@ -53,7 +53,7 @@
  *****************************************************************************/
 
 /** The abstract buzzer interface. */
-class IPOWER_H
+class IPower
 {
 public:
     /**
