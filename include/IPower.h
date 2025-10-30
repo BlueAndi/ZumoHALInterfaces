@@ -52,7 +52,7 @@
  * Types and Classes
  *****************************************************************************/
 
-/** The abstract buzzer interface. */
+/** The abstract power interface. */
 class IPower
 {
 public:
